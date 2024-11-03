@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema Bancário</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form-container show" id="loginForm">
+      <form onsubmit="event.preventDefault(); login();">
+        <h1>Login</h1>
+        <div class="input-box">
+          <input type="text" placeholder="Username" id="username" required />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            required
+          />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox" id="rememberMe" />Relembre-me</label>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="register-link">
+          <p>
+            Não tem uma conta?
+            <a href="#" onclick="showRegister()">Register</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-container" id="registerForm">
+      <form onsubmit="event.preventDefault(); register();">
+        <h1>Register</h1>
+        <div class="input-box">
+          <input type="text" placeholder="Username" id="newUsername" required />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input
+            type="password"
+            placeholder="Password"
+            id="newPassword"
+            required
+          />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="input-box">
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            id="confirmPassword"
+            required
+          />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <div class="register-link">
+          <p>
+            Já possui uma conta? <a href="#" onclick="showLogin()">Login</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-container" id="sistemaBancario">
+      <h1>Sistema Bancário</h1>
+      <p>Escolha uma ação:</p>
+      <button class="btn" onclick="depositar()">Depósito</button>
+      <button class="btn" onclick="sacar()">Saque</button>
+      <button class="btn" onclick="extrato()">Extrato</button>
+      <button class="btn" onclick="sair()">Sair</button>
+      <p id="mensagem"></p>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
