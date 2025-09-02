@@ -18,4 +18,4 @@ Uma Aplicação web desenvolvida para simular operações básicas de um banco, 
 (tela de registro.png)
 
 ### Tela do Sistema
-(.src/tela do sistema.png)
+(Src/img/tela-do-sistema.png)
