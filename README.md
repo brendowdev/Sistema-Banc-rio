@@ -18,6 +18,5 @@ Uma Aplicação web desenvolvida para simular operações básicas de um banco, 
 (tela de registro.png)
 
 ### Tela do Sistema 
-(tela do sistema.png)
-
+https://github.com/brendowdev/Sistema-Banc-rio/blob/main/src/imagem/tela%20do%20sistema.png
 ---
