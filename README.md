@@ -12,10 +12,10 @@ Uma Aplicação web desenvolvida para simular operações básicas de um banco, 
 ## 📷 Demonstração  
 
 ### Tela inicial  
-(tela inicial.png) 
+![Tela Incial](tela_inicial.png) 
 
 ### Tela de Registro
-(tela de registro.png)
+![Tela do Registro](tela_de_registro.png)
 
 ### Tela do Sistema
-![Tela do Sistema](src/imagem/tela do sistema.png)
+![Tela do Sistema](src/imagem/tela_do_sistema.png)
